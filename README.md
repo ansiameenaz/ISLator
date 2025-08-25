@@ -12,7 +12,7 @@ Text Output: Converts recognized ISL gestures into readable text for communicati
 # Dataset Requirement
 
 To run ISLator, you need the WLASL (Word-Level American Sign Language) dataset. You can download it here:
-WLASL Dataset Download: https://github.com/SignLanguageRecognition/WLASL
+WLASL Dataset Download: [https://github.com/SignLanguageRecognition/WLASL](https://www.kaggle.com/datasets/risangbaskoro/wlasl-processed)
   ⚠️ Make sure to download the videos and class list files (wlasl_class_list.txt) and place them according to the folder structure below.
 
 <img width="916" height="413" alt="image" src="https://github.com/user-attachments/assets/569e8426-6508-48f6-b6c5-ba66c53b2cf0" />
