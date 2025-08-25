@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plain Language to Sign Language</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>Plain Text to Sign Language</h2>
+
+    <!-- Input Section -->
+    <div class="section" id="input-section">
+      <input id="inputText" type="text" placeholder="Enter English sentence" autocomplete="off" />
+      <button id="convertBtn" onclick="getGloss()">Convert</button>
+    </div>
+
+    <!-- Gloss Output Section -->
+    <div class="section" id="gloss-section">
+      <p id="glossOutput"></p>
+    </div>
+
+    <!-- Video Section -->
+    <div class="section" id="video-section">
+      <div id="videoContainer"></div>
+      <button id="playAllBtn" onclick="playAllVideos()" style="display: none;">Play All</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script2.js') }}"></script>
+</body>
+</html>

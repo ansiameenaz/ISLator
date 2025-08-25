@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plain language to Sign language</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="converter-box">
+    <h2>Plain text to Sign language </h2>
+    <input id="inputText" type="text" placeholder="Enter English sentence" autocomplete="off" />
+    <br />
+    <button id="convertBtn" onclick="getGloss()">Convert</button>
+    <p id="glossOutput"></p>
+    <div id="videoContainer"></div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
